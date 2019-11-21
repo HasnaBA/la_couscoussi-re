@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -18,7 +18,7 @@
 <body>
     <!--**********************************Nav******************************************-->
     <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">La Couscoussière</a>
+        <a class="navbar-brand" href="#accueil">La Couscoussière</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,66 +51,98 @@
 
     </header>
 
+    <div id="merde" class="container-fluid">
+        <div class="container">
+            <!--**********************************Presentation restaurants******************************************-->
+            <div id="restaurants" class="row">
+                <div class="col-md-12">
+                    <div id="jumb1" class="jumbotron justify-content">
 
-    <!--**********************************Presentation restaurants******************************************-->
-    <div id="vente" class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="jumbotron">
-                    <h2 class="display-4">Vente à emporter</h2>
-                    <p class="lead">Tous nos restaurants proposent également de la vente à emporter. Nous vous
-                        invitons à réserver votre commande à l'avance en contactant par téléphone le restaurant de
-                        votre choix, et de prévoir des récipients afin de récupérer votre plat.</p>
-                    <hr class="my-4">
+                        <h2 class="display-4">Vente à emporter</h2>
 
-                    <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
+                        <p class="lead">Tous nos restaurants proposent également de la vente à emporter. Nous vous
+                            invitons à réserver votre commande à l'avance en contactant par téléphone le restaurant de
+                            votre choix, et de prévoir des récipients afin de récupérer votre plat.</p>
+
+
+
+                    </div>
                 </div>
             </div>
-        </div>
 
 
-        <div class="row">
-            <div class="col-md-4">
-                <div class="jumbotron">
-                    <h2 class="display-4"> Creutzawld </h2>
-                    <p class="lead">La Couscoussière vous accueille au 185, rue de la Gare à Creutzwald, dans le
-                        département de la Moselle en région Grand Est, pour vous proposer des couscous et des plats
-                        traditionnels variés, et tout simplement délicieux. Découvrez-nous !</p>
-                    <hr class="my-4">
+            <div id="restaurant1" class="row">
+                <div class="col-md-4">
+                    <div id="jumb2" class="jumbotron">
+                        <h2 class="display-4"> Creutzawld </h2>
+                        <p class="lead">La Couscoussière vous accueille au 185, rue de la Gare à Creutzwald, dans le
+                            département de la Moselle en région Grand Est, pour vous proposer des couscous et des plats
+                            traditionnels variés, et tout simplement délicieux. Découvrez-nous !</p>
 
-                    <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
+
+
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <img src="./img/restaurant1.jpeg">
+                </div>
+            </div>
+
+            <div id="restaurant2" class="row">
+
+                <div class="col-md-8">
+                    <img src="./img/restaurant2.jpeg" alt="image_restaurant">
+
                 </div>
 
-            </div>
-            <div class="col-md-8">
-                <img src="./img/restaurant1.jpeg">
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-4">
 
-                <div class="jumbotron">
-                    <h2 class="display-4"></h2>Essey-Les-Nancy </h2>
-                    <p class="lead"> À Essey-les-Nancy, dans le département de la Meurthe-et-Moselle, La
+                <div class="col-md-4">
+                    <div id="jumb3" class="jumbotron">
+                        <h2 class="display-4">Essey-Les-Nancy </h2>
+                        <p class="lead"> À Essey-les-Nancy, dans le département de la Meurthe-et-Moselle, La
                             Couscoussière est située au 83, avenue 69 Régiment d’Infanterie. Cette adresse vous
                             réserve des surprises culinaires maghrébines comme vous en rêvez. Couscous, brikes,
                             brochettes, grillades… À vous de choisir !</p>
-                    <hr class="my-4">
 
-                    <a class="btn btn-primary btn-lg" href="#" role="button">En savoir plus</a>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="adress" class="row">
+                <div class="col-md-6">
+                    <h3 id="contact">La couscoussière Creutzawld</h3>
+                    <p>Ouverture Du mardi au dimanche :<br> de 12h à 14h et de 19h à 22h.</p>
+                    <address>
+                        <h4>Adresse</h4>
+                        <p>
+                            83, avenue 69 Régiment d'Infanterie
+                            <br>
+                            54270 Essey-lès-Nancy
+                        </p>
+                        <h4>Téléphone</h4>
+                        <a href="tel:+13115552368">03 87 82 68 00</a>
+                    </address>
+                </div>
+                <div class="col-md-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2632.7839542131637!2d6.236392951439712!3d48.70961021902276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47949886bfd2ebdf%3A0x2003512c8c9cf643!2sLa%20Couscoussi%C3%A8re!5e0!3m2!1sfr!2sfr!4v1574331252288!5m2!1sfr!2sfr"
+                        width="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
                 </div>
 
             </div>
-            <div class="col-md-8">
-                <img src="./img/restaurant2.jpeg" alt="image_restaurant">
 
-            </div>
+
+
         </div>
+    </div>
 
 
-    </div>
-    </div>
 
 
 
