@@ -7,11 +7,12 @@
 
 header {
     background-image: url(https://www.restaurant-la-couscoussiere.fr/wp-content/uploads/2019/03/AdobeStock_60028973.jpeg);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 580px;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
     color: white;
 
 
@@ -20,7 +21,7 @@ header {
 h1 {
     font-size: 3rem;
     font-family: 'Playfair Display SC', serif;
-    margin-top: 150px;
+   
 }
 .speciality{
     font-size: 30px;
